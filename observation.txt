@@ -1,0 +1,10 @@
+Each compilation of the assembly code between the different optimization levels have very little changes between them.
+Optimization level 0, by definition has no optimization. The assembly file has the most lines out of the 3 variants thus making it the most complex.
+Optimization level 1 had the least amount of lines out of the 3 variants. while this means that optimization level 3 has more lines, it does not necesarily mean that it is more efficient
+as things such as amount of memory alocated can take extra lines, but by adding those lines you can cut down how much memory a program is using thereby making it more efficient and faster.
+However on a scale such as this that we are using the optimization level is practicaly irelevant as from an observable standpoint they all run in the same speed.
+Looking at the assembly code itself provides only so much aid, as the overall structure is so close in each variant that it all appears to be the same.
+Some structural differences are noticable however, such as in the start of the programs of optimization 1 and 3. These have an additional an instruction in a line and format themselves differently compared to the
+program with no optimization.
+Overall, on smaller scale programs such as this the variants that optimization levesl 0,1, and 3 provide are negligeable, but on a larger scales there is deffinitly potential that both the complexity of the code itself
+and the program efficiency will be significantly different.
